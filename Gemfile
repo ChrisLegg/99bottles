@@ -1,2 +1,5 @@
 source 'https://rubygems.org'
 gem 'minitest', '~> 5.4'
+gem 'minitest-reporters', '~> 1.1', '>= 1.1.14'
+gem 'guard'
+gem 'guard-minitest'
