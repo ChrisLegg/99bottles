@@ -1,5 +1,9 @@
 class Bottles
 
+  def song
+    verses(99,0)
+  end
+
   def verses(verse_from, verse_to)
     verse_from
       .downto(verse_to)
