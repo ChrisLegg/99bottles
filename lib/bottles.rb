@@ -1,5 +1,12 @@
 class Bottles
 
+  def verses(verse_from, verse_to)
+    verse_from
+      .downto(verse_to)
+      .collect { |verse_number| verse(verse_number) }
+      .join("\n")
+  end
+
   def verse(number)
     case number
     when 2
